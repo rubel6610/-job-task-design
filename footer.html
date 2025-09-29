@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Footer</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="flex flex-col min-h-screen inter">
+
+ 
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-gray-700">
+    <div class="max-w-7xl mx-auto px-6 py-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Logo + Social -->
+        <div>
+          <h2 class="text-xl font-bold mb-4">Business Logo</h2>
+          <div class="flex space-x-4 text-gray-600">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Our Services -->
+        <div>
+          <h4 class="font-semibold mb-4">Our Services</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-blue-600">Plumbing</a></li>
+            <li><a href="#" class="hover:text-blue-600">Drainage</a></li>
+            <li><a href="#" class="hover:text-blue-600">Bathrooms</a></li>
+            <li><a href="#" class="hover:text-blue-600">Commercial</a></li>
+          </ul>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="">
+          <h4 class="font-semibold mb-4">Useful Links</h4>
+          <div class="flex gap-8 ">
+             <ul class="space-y-2">
+            <li><a href="#" class="hover:text-blue-600">Contact Us</a></li>
+            <li><a href="#" class="hover:text-blue-600">Updates</a></li>
+            <li><a href="#" class="hover:text-blue-600">About Us</a></li>
+            <li><a href="#" class="hover:text-blue-600">Rates</a></li>
+           
+          </ul>
+          <ul>
+             <li><a href="#" class="hover:text-blue-600">Customer Services</a></li>
+            <li><a href="#" class="hover:text-blue-600">Locations</a></li>
+            <li><a href="#" class="hover:text-blue-600">Sitemap</a></li>
+          </ul>
+          </div>
+         
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="font-semibold mb-4">Contact Info</h4>
+          <p class="flex items-center space-x-2">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>1 Sail Street, London, SE11 6NQ</span>
+          </p>
+          <p class="flex items-center space-x-2 mt-2">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:enquiries@PlumbingPros.com" class="hover:text-blue-600">
+              enquiries@PlumbingPros.com
+            </a>
+          </p>
+          <p class="flex items-center space-x-2 mt-2">
+            <i class="fas fa-phone"></i>
+            <span>020 4527 6474</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="border-t border-gray-300 mt-8 pt-4 flex flex-col md:flex-row justify-between text-sm text-gray-500">
+        <p>© Plumbing Pros. All Rights Reserved</p>
+        <p>Website by IH Adventure And Creative</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
